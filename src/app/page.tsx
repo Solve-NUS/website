@@ -44,7 +44,7 @@ const Home: React.FC = () => {
             Solve@NUS is a puzzle club dedicated to puzzle hunts, which are
             events where teams work together to solve a series of puzzles. Our
             sessions are spent solving puzzles, writing puzzles, or learning
-            about puzzles. We also participate in external puzzles hunt
+            about puzzles. We also participate in external puzzle hunts
             together!
           </p>
         </div>
@@ -52,9 +52,9 @@ const Home: React.FC = () => {
           <h2 className="text-l font-bold">What sort of puzzles do we do?</h2>
           <p>
             The puzzles we solve aren't just limited to your traditional
-            crosswords or sudokus: they could come in the form of audio tracks,
-            a text adventure game, a devious logic puzzle, or anything else
-            under the sun!
+            crosswords or sudokus: they can come in the form of audio tracks, a
+            text adventure game, a devious logic puzzle, or anything else under
+            the sun!
           </p>
         </div>
         <div>
@@ -67,9 +67,28 @@ const Home: React.FC = () => {
               About page
             </Link>{" "}
             to learn more about our club! Alternatively, if you're already
-            hooked, you can join our Telegram group, follow our Instagram, join
-            our Discord, and (if you're an NUS student) join us as an official
-            member on NUSync. We look forward to seeing you at sessions!{" "}
+            hooked, you can{" "}
+            <Link
+              href="https://tinyurl.com/ovalsunset"
+              className="text-sky-700 hover:underline"
+            >
+              join our Telegram group
+            </Link>
+            ,{" "}
+            <Link
+              href="https://www.instagram.com/ovalsunset/"
+              className="text-sky-700 hover:underline"
+            >
+              follow our Instagram
+            </Link>
+            , and (if you're an NUS student){" "}
+            <Link
+              href="https://nus.campuslabs.com/engage/organization/solve-at-nus"
+              className="text-sky-700 hover:underline"
+            >
+              join us as an official member on NUSync
+            </Link>
+            . We look forward to seeing you at sessions!{" "}
           </p>
         </div>
       </div>
