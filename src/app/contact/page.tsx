@@ -1,4 +1,4 @@
-const Home: React.FC = () => {
+const Contact: React.FC = () => {
   return (
     <>
       <h1 className="text-2xl font-bold text-gray-800">Contact Page</h1>
@@ -7,4 +7,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default Contact;
