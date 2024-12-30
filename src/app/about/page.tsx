@@ -1,17 +1,10 @@
-import Navbar from '@/components/navbar';
-
-const Home: React.FC = () => {
+const About: React.FC = () => {
   return (
     <>
-      <Navbar />
-      <main className="flex justify-center bg-gray-100 min-h-screen pt-16">
-        <div className="container bg-white rounded-lg shadow-lg p-8 text-center border border-black">
-          <h1 className="text-2xl font-bold text-gray-800">About Page</h1>
-          <p className="text-gray-600 mt-4">About Description</p>
-        </div>
-      </main>
+      <h1 className="text-2xl font-bold text-gray-800">About Page</h1>
+      <p className="text-gray-600 mt-4">About Description</p>
     </>
   );
 };
 
-export default Home;
+export default About;
