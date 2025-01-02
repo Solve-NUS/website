@@ -35,8 +35,9 @@ export default function RootLayout({
         style={{
           backgroundImage: 'url("/background.jpg")',
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "left center",
           backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
           minHeight: "100vh",
         }}
       >
