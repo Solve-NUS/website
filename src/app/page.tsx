@@ -12,11 +12,9 @@ const Home: React.FC = () => {
     <>
       <Image src="/logo.svg" width={250} height={250} alt="Solve@NUS logo" />
       <div>
-        <h1 className="text-2xl font-bold text-gray-800">Solve@NUS</h1>
-        <p className="text text-gray-600">
-          The puzzle club of the National University of Singapore.
-        </p>
-        <div className="flex gap-2 justify-center items-center text-gray-400">
+        <h1>Solve@NUS</h1>
+        <p>The puzzle club of the National University of Singapore.</p>
+        <div className="social-media-icons">
           <Link href="https://tinyurl.com/ovalsunset">
             <FontAwesomeIcon icon={faTelegram} className="fa-2x" />
           </Link>
@@ -35,10 +33,10 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-2 items-start text-left">
+      <div className="flex flex-col gap-2 text-left">
         <div>
-          <h2 className="text-xl font-bold text-gray-800">What do we do?</h2>
-          <p className="text-gray-800">
+          <h2>What do we do?</h2>
+          <p>
             Solve@NUS is a puzzle club dedicated to puzzle hunts, which are
             events where teams work together to solve a series of puzzles. Our
             sessions are spent solving puzzles, writing puzzles, or learning
@@ -46,22 +44,22 @@ const Home: React.FC = () => {
             together!
           </p>
         </div>
-        <hr className="my-2 border-t border-gray-300" />
+        <hr/>
         <div>
-          <h2 className="text-xl font-bold text-gray-800">What sort of puzzles do we do?</h2>
-          <p className="text-gray-800">
+          <h2>What sort of puzzles do we do?</h2>
+          <p>
             The puzzles we solve aren&apos;t just limited to your traditional
             crosswords or sudokus: they can come in the form of audio tracks, a
             text adventure game, a devious logic puzzle, or anything else under
             the sun!
           </p>
         </div>
-        <hr className="my-2 border-t border-gray-300" />
+        <hr/>
         <div>
-          <h2 className="text-xl font-bold text-gray-800">
+          <h2>
             That&apos;s cool! Where do I find out more?
           </h2>
-          <p className="text-gray-800">
+          <p>
             Head to our{" "}
             <Link href="/about" className="text-sky-700 hover:underline">
               About page

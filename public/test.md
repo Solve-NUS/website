@@ -1,0 +1,1 @@
+<img src="./logo.svg" alt="Alt text" width="100" height="100">
