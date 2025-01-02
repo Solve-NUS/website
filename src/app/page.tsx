@@ -51,7 +51,7 @@ const Home: React.FC = () => {
         <div>
           <h2 className="text-l font-bold">What sort of puzzles do we do?</h2>
           <p>
-            The puzzles we solve aren't just limited to your traditional
+            The puzzles we solve aren&apos;t just limited to your traditional
             crosswords or sudokus: they can come in the form of audio tracks, a
             text adventure game, a devious logic puzzle, or anything else under
             the sun!
@@ -59,14 +59,14 @@ const Home: React.FC = () => {
         </div>
         <div>
           <h2 className="text-l font-bold">
-            That's cool! Where do I find out more?
+            That&apos;s cool! Where do I find out more?
           </h2>
           <p>
             Head to our{" "}
             <Link href="/about" className="text-sky-700 hover:underline">
               About page
             </Link>{" "}
-            to learn more about our club! Alternatively, if you're already
+            to learn more about our club! Alternatively, if you&apos;re already
             hooked, you can{" "}
             <Link
               href="https://tinyurl.com/ovalsunset"
@@ -81,7 +81,7 @@ const Home: React.FC = () => {
             >
               follow our Instagram
             </Link>
-            , and (if you're an NUS student){" "}
+            , and (if you&apos;re an NUS student){" "}
             <Link
               href="https://nus.campuslabs.com/engage/organization/solve-at-nus"
               className="text-sky-700 hover:underline"
