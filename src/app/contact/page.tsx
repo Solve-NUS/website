@@ -1,9 +1,8 @@
+import MarkdownRenderer from "@/parseMarkdown";
+
 const Contact: React.FC = () => {
   return (
-    <>
-      <h1>Contact Page</h1>
-      <p>Social Media Stuff</p>
-    </>
+    <MarkdownRenderer filePath="/content/contact.md" />
   );
 };
 

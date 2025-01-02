@@ -1,9 +1,8 @@
+import MarkdownRenderer from "@/parseMarkdown";
+
 const About: React.FC = () => {
   return (
-    <>
-      <h1>About Page</h1>
-      <p>About Description</p>
-    </>
+    <MarkdownRenderer filePath="/content/about.md" />
   );
 };
 

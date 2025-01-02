@@ -36,6 +36,9 @@ hr {
   @apply my-2 border-t border-gray-300
 }
 
+a {
+  @apply text-sky-700 hover:underline
+}
 .social-media-icons {
   @apply flex gap-2 justify-center items-center text-gray-400;
 }
