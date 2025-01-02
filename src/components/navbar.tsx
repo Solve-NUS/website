@@ -2,7 +2,7 @@ import Link from 'next/link'; // If using Next.js; otherwise, use <a> tags.
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50 h-16">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-gray-800">
