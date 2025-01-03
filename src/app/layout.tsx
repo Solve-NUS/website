@@ -33,11 +33,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         style={{
-          backgroundImage: 'url("/background.jpg")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          minHeight: "100vh",
+          width: '100%',
+          height: '100vh',
+          background: `url('background.svg') no-repeat center center`,
+          backgroundSize: 'cover',
         }}
       >
         <Navbar />
