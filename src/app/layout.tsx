@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         style={{
-          backgroundImage: 'url("/background.jpg")',
+          background: `url('background.svg') no-repeat center center`,
           backgroundSize: "cover",
           backgroundPosition: "left center",
           backgroundRepeat: "no-repeat",
