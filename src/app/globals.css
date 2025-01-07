@@ -19,3 +19,26 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  @apply text-2xl font-bold text-gray-800;
+}
+
+h2 {
+  @apply text-xl font-bold text-gray-800;
+}
+
+p {
+  @apply text-gray-600;
+}
+
+hr {
+  @apply my-2 border-t border-gray-300
+}
+
+a {
+  @apply text-sky-700 hover:underline
+}
+.social-media-icons {
+  @apply flex gap-2 justify-center items-center text-gray-400;
+}
