@@ -1,12 +1,8 @@
 # Contact
 
----
-
 For official enquiries, please reach out to us at [solveatnus@gmail.com](mailto:solveatnus@gmail.com).
 
----
-
-Follow us on Social Media!
+To keep up with our activities, join us on:
 
 - [Telegram](https://tinyurl.com/ovalsunset)
 - [Instagram](https://www.instagram.com/ovalsunset/)

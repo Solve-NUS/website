@@ -1,4 +1,4 @@
-## What do we do?
+## What does Solve@NUS do?
 
 Solve@NUS is a puzzle club dedicated to puzzle hunts, which are
 events where teams work together to solve a series of puzzles. Our
@@ -8,7 +8,7 @@ together!
 
 ---
 
-## What sort of puzzles do we do?
+## What sort of puzzles do you do?
 
 The puzzles we solve aren't just limited to your traditional
 crosswords or sudokus: they can come in the form of audio tracks, a

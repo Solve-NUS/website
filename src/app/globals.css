@@ -28,17 +28,28 @@ h2 {
   @apply text-xl font-bold text-gray-800;
 }
 
-p {
+p,
+ul,
+ol {
   @apply text-gray-600;
 }
 
+p {
+  @apply my-2;
+}
+
 hr {
-  @apply my-2 border-t border-gray-300
+  @apply my-4 border-t border-gray-300;
 }
 
 a {
-  @apply text-sky-700 hover:underline
+  @apply text-sky-700 hover:underline;
 }
+
+ul {
+  @apply list-disc list-inside;
+}
+
 .social-media-icons {
   @apply flex gap-2 justify-center items-center text-gray-400;
 }
