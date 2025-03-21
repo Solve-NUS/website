@@ -2,7 +2,12 @@ import MarkdownRenderer from "@/parseMarkdown";
 
 const Archive: React.FC = () => {
   return (
-    <MarkdownRenderer filePath="/content/archives.md" />
+    <>
+      <h1>Archives</h1>
+      <div className="flex flex-col gap-2 text-left">
+        <MarkdownRenderer filePath="content/archives.md" />
+      </div>
+    </>
   );
 };
 
