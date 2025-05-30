@@ -5,7 +5,7 @@ const Contact: React.FC = () => {
     <>
       <h1>Contact</h1>
       <div className="flex flex-col gap-2 text-left">
-        <MarkdownRenderer filePath="content/contact.md" />
+        <MarkdownRenderer filePath="./content/contact.md" />
       </div>
     </>
   );

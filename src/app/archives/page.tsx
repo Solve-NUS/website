@@ -5,7 +5,7 @@ const Archive: React.FC = () => {
     <>
       <h1>Archives</h1>
       <div className="flex flex-col gap-2 text-left">
-        <MarkdownRenderer filePath="content/archives.md" />
+        <MarkdownRenderer filePath="./content/archives.md" />
       </div>
     </>
   );

@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo.svg"
+            src="./logo.svg"
             alt="Solve@NUS Logo"
             width={32}
             height={32}

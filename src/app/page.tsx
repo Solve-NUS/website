@@ -12,7 +12,7 @@ import MarkdownRenderer from "@/parseMarkdown";
 const Home: React.FC = () => {
   return (
     <>
-      <Image src="/logo.svg" width={250} height={250} alt="Solve@NUS logo" />
+      <Image src="./logo.svg" width={250} height={250} alt="Solve@NUS logo" />
       <div>
         <h1>Solve@NUS</h1>
         <p>The puzzle club of the National University of Singapore.</p>
@@ -55,7 +55,7 @@ const Home: React.FC = () => {
       </div>
 
       <div className="flex flex-col gap-2 text-left">
-        <MarkdownRenderer filePath="content/home.md" />
+        <MarkdownRenderer filePath="./content/home.md" />
       </div>
     </>
   );
