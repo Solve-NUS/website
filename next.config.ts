@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   basePath: "/website",
   output: "export", // <=== enables static exports
   reactStrictMode: true,
-  distDir: "docs",
+  distDir: "dist",
   images: {
     unoptimized: true,
   },
