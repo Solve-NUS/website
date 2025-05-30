@@ -2,6 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   basePath: "/website",
+  assetPrefix: "/website",
   output: "export", // <=== enables static exports
   reactStrictMode: true,
   distDir: "docs",
