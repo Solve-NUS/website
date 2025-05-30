@@ -1,9 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",  // <=== enables static exports
+  basePath: "/website",
+  output: "export", // <=== enables static exports
   reactStrictMode: true,
-  distDir: 'docs',
+  distDir: "docs",
 };
 
 export default nextConfig;
