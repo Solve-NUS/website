@@ -57,7 +57,7 @@ const About: React.FC = () => {
             You can{" "}
             <a href="https://tinyurl.com/ovalsunset">join our Telegram group</a>
             ,{" "}
-            <a href="https://www.instagram.com/ovalsunset/">
+            <a href="https://www.instagram.com/solveatnus/">
               follow our Instagram
             </a>
             , join our <a href="https://discord.gg/6Jez2WAq5f">Discord</a>, and

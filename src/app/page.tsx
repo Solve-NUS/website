@@ -23,7 +23,7 @@ const Home: React.FC = () => {
             />
           </Link>
 
-          <Link href="https://www.instagram.com/ovalsunset/">
+          <Link href="https://www.instagram.com/solveatnus/">
             <FontAwesomeIcon
               icon={faSquareInstagram}
               className="fa-2x text-gray-400 hover:text-gray-600 transition ease-in-out duration-300"
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
             club! Alternatively, if you&apos;re already hooked, you can{" "}
             <a href="https://tinyurl.com/ovalsunset">join our Telegram group</a>
             ,{" "}
-            <a href="https://www.instagram.com/ovalsunset/">
+            <a href="https://www.instagram.com/solveatnus/">
               follow our Instagram
             </a>
             , join our <a href="https://discord.gg/6Jez2WAq5f">Discord</a>, and

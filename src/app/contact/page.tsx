@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
               <a href="https://tinyurl.com/ovalsunset">Telegram</a>
             </li>
             <li>
-              <a href="https://www.instagram.com/ovalsunset/">Instagram</a>
+              <a href="https://www.instagram.com/solveatnus/">Instagram</a>
             </li>
             <li>
               <a href="https://discord.gg/6Jez2WAq5f">Discord</a>
