@@ -43,7 +43,7 @@ const Archive: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/archives/AY2425S1_W9.pdf">Week 12: Board Games</Link>
+              <Link href="/archives/AY2425S1_W12.pdf">Week 12: Board Games</Link>
             </li>
           </ul>
         </div>
