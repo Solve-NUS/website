@@ -11,7 +11,7 @@ const Archive: React.FC = () => {
           <h2>AY24/25 Sem 2</h2>
           <ul>
             <li>
-              <a href="./archives/AY2425S2_W4.pdf">Week 4: Linguistics</a>
+              <a href="archives/AY2425S2_W4.pdf">Week 4: Linguistics</a>
             </li>
           </ul>
           <h2>AY24/25 Sem 1</h2>
