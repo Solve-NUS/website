@@ -16,15 +16,28 @@ const Archive: React.FC = () => {
               <Link href="/archives/AY2425S2_W1.pdf">
                 Week 1: Musical Theatre
               </Link>
+            </li>
+            <li>
               <Link href="/archives/AY2425S2_W4.pdf">Week 4: Linguistics</Link>
+            </li>
+            <li>
+              <Link href="/archives/AY2425S2_W13.pdf">Week 13: Week 13</Link>
             </li>
           </ul>
           <h2>AY24/25 Sem 1</h2>
           <ul>
             <li>
               <a href="https://nuspuzzlehunt.com/">
-                Week 1: Orientation Hunt 2024
+                Week 2: Orientation Hunt 2024
               </a>
+              <li>
+                <Link href="/archives/AY2425S1_W3.pdf">
+                  Week 3: Food Fiesta
+                </Link>
+              </li>
+              <li>
+                <Link href="/archives/AY2425S1_W6.pdf">Week 6: NYT Games</Link>
+              </li>
             </li>
           </ul>
         </div>
