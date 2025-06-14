@@ -30,14 +30,20 @@ const Archive: React.FC = () => {
               <a href="https://nuspuzzlehunt.com/">
                 Week 2: Orientation Hunt 2024
               </a>
-              <li>
-                <Link href="/archives/AY2425S1_W3.pdf">
-                  Week 3: Food Fiesta
-                </Link>
-              </li>
-              <li>
-                <Link href="/archives/AY2425S1_W6.pdf">Week 6: NYT Games</Link>
-              </li>
+            </li>
+            <li>
+              <Link href="/archives/AY2425S1_W3.pdf">Week 3: Food Fiesta</Link>
+            </li>
+            <li>
+              <Link href="/archives/AY2425S1_W6.pdf">Week 6: NYT Games</Link>
+            </li>
+            <li>
+              <Link href="/archives/AY2425S1_W9.pdf">
+                Week 9: Love Languages
+              </Link>
+            </li>
+            <li>
+              <Link href="/archives/AY2425S1_W9.pdf">Week 12: Board Games</Link>
             </li>
           </ul>
         </div>
