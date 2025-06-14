@@ -1,11 +1,28 @@
-import MarkdownRenderer from "@/parseMarkdown";
-
 const Archive: React.FC = () => {
   return (
     <>
       <h1>Archives</h1>
       <div className="flex flex-col gap-2 text-left">
-        <MarkdownRenderer filePath="./content/archives.md" />
+        <div>
+          <p>
+            We are in the process of preparing solutions and uploading our old
+            puzzle sets here. Stay tuned for more!
+          </p>
+          <h2>AY24/25 Sem 2</h2>
+          <ul>
+            <li>
+              <a href="../archives/AY2425S2_W4.pdf">Week 4: Linguistics</a>
+            </li>
+          </ul>
+          <h2>AY24/25 Sem 1</h2>
+          <ul>
+            <li>
+              <a href="https://nuspuzzlehunt.com/">
+                Week 1: Orientation Hunt 2024
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
